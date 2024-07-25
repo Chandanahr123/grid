@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Grind</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rewards">Rewards</a></li>
+                <li><a href="#coffee-specials">Coffee Specials</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to The Daily Grind!</h1>
+            <p>Get your daily dose of caffeine and rewards!</p>
+        </section>
+        <section id="rewards">
+            <h2>Rewards</h2>
+            <p>Earn points and unlock special offers!</p>
+            <button id="earn-points">Earn Points</button>
+            <div id="points-display">Points: 0</div>
+        </section>
+        <section id="coffee-specials">
+            <h2>Coffee Specials</h2>
+            <div id="coffee-specials-list"></div>
+        </section>
+        <section id="profile">
+            <h2>Profile</h2>
+            <form id="profile-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="favorite-drink">Favorite Drink:</label>
+                <select id="favorite-drink" name="favorite-drink">
+                    <option value="Latte">Latte</option>
+                    <option value="Cappuccino">Cappuccino</option>
+                    <option value="Mocha">Mocha</option>
+                </select><br><br>
+                <label for="music-genre">Music Genre:</label>
+                <select id="music-genre" name="music-genre">
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Jazz">Jazz</option>
+                </select><br><br>
+                <button id="save-profile">Save Profile</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
